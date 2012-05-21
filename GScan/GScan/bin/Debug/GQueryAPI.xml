@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GQueryAPI</name>
+    </assembly>
+    <members>
+        <member name="M:GQueryAPI.GQueryService.#ctor(System.String)">
+            <summary>
+            Constructor of GQueryService class.
+            </summary>
+            <param name="keyword">Keyword for search request</param>
+        </member>
+        <member name="M:GQueryAPI.GQueryService.#ctor(System.String,System.Int32,System.Boolean,System.String)">
+            <summary>
+            Constructor of GQueryService class.
+            </summary>
+            <param name="keyword">Keyword for search request</param>
+            <param name="filter">Safety mode (true or false)</param>
+            <param name="linksnum">Number of links in result list</param>
+            <param name="wc">WebClient object for sending/retrieving data</param>
+        </member>
+        <member name="M:GQueryAPI.GQueryService.GetPages">
+            <summary>
+            Retrieving pages from Google Search
+            </summary>
+            <returns>True if there were no errors and false if there were some errors</returns>
+        </member>
+        <member name="M:GQueryAPI.GQueryService.GetResult">
+            <summary>
+            Searching in Google current key phrase and writing results to list.
+            </summary>
+            <returns>List of GQueryResult objects</returns>
+        </member>
+        <member name="P:GQueryAPI.GQueryService.Filter">
+            <summary>
+            Safety mode. This property is for filtering search reasults. (i.e. "porn", "fuck" etc.)
+            </summary>
+        </member>
+        <member name="P:GQueryAPI.GQueryService.LinksCount">
+            <summary>
+            Number of ResultObjects (links) in Google result page.
+            </summary>
+        </member>
+        <member name="P:GQueryAPI.GQueryService.Site">
+            <summary>
+            Ability for searching on one special web site.
+            </summary>
+        </member>
+        <member name="P:GQueryAPI.GQueryService.SearchQuery">
+            <summary>
+            Search request for Google Search.
+            </summary>
+        </member>
+        <member name="P:GQueryAPI.GQueryService.SearchKeyword">
+            <summary>
+            Get keyword of current searching.
+            </summary>
+        </member>
+        <member name="P:GQueryAPI.GQueryResult.Title">
+            <summary>
+            Get the title of the Google search result.
+            </summary>
+        </member>
+        <member name="P:GQueryAPI.GQueryResult.Content">
+            <summary>
+            Get the brief content of the Google search result.
+            </summary>
+        </member>
+        <member name="P:GQueryAPI.GQueryResult.Url">
+            <summary>
+            Get the URL of the Google search result.
+            </summary>
+        </member>
+        <member name="P:GQueryAPI.GQueryResult.CachedUrl">
+            <summary>
+            Get the cached URL of the Google search result.
+            </summary>
+        </member>
+    </members>
+</doc>

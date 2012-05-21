@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LMFC</name>
+    </assembly>
+    <members>
+        <member name="M:ThematicAnalyser.Analyzer.GetKey(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Извлекает ключевые слова из текста с учетом контекста и количества повторений.
+            </summary>
+            <param name="threshold">Порог в процентах, необходимый для определения первичного множества ключевых элементов.</param>
+            <param name="range">Окрестность, в пределах которой осуществляется контекстный анализ.</param>
+            <param name="screen">Параметр отсечки, используется для исключения из множества ключевых элементов тех элементов, количество повторений которых меньше или равно screen.</param>
+            <returns>SortedList</returns>
+        </member>
+        <member name="M:ThematicAnalyser.Morpho.GetLemmas(System.Collections.Generic.IEnumerable{System.String},System.String[])">
+            <summary>
+            Get norm form of the word.
+            </summary>
+            <param name="words">Words after lexical analyse</param>
+            <param name="ignor">List of stop-words</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

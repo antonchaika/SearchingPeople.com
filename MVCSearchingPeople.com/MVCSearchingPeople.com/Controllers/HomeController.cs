@@ -3,21 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MVCSearchingPeople.com.Models;
 
 namespace MVCSearchingPeople.com.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        [HttpGet]
+        public ActionResult Start()
         {
-            ViewBag.Message = "Welcome to ASP.NET MVC!";
-
             return View();
         }
 
-        public ActionResult About()
+        [HttpPost]
+        public ActionResult Start(InputData input)
         {
-            return View();
+            return View("Result", input);
         }
     }
 }

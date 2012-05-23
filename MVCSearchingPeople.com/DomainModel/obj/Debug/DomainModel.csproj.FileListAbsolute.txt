@@ -1,0 +1,11 @@
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\DomainModel\bin\Debug\DomainModel.dll
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\DomainModel\bin\Debug\DomainModel.pdb
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\DomainModel\bin\Debug\Moq.dll
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\DomainModel\bin\Debug\Ninject.dll
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\DomainModel\bin\Debug\Moq.pdb
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\DomainModel\bin\Debug\Moq.xml
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\DomainModel\bin\Debug\Ninject.pdb
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\DomainModel\bin\Debug\Ninject.xml
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\DomainModel\obj\Debug\ResolveAssemblyReference.cache
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\DomainModel\obj\Debug\DomainModel.dll
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\DomainModel\obj\Debug\DomainModel.pdb

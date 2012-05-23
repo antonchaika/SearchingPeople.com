@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCSearchingPeople.com", "MVCSearchingPeople.com\MVCSearchingPeople.com.csproj", "{88131759-EEFA-4702-96E8-9E9B88DA3B37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModel", "DomainModel\DomainModel.csproj", "{140C70BA-9511-4DD0-B5F6-3AD2A8762F38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{88131759-EEFA-4702-96E8-9E9B88DA3B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88131759-EEFA-4702-96E8-9E9B88DA3B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88131759-EEFA-4702-96E8-9E9B88DA3B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{140C70BA-9511-4DD0-B5F6-3AD2A8762F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140C70BA-9511-4DD0-B5F6-3AD2A8762F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140C70BA-9511-4DD0-B5F6-3AD2A8762F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140C70BA-9511-4DD0-B5F6-3AD2A8762F38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

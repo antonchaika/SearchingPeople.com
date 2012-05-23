@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using MVCSearchingPeople.com.Infastructure;
 
 namespace MVCSearchingPeople.com
 {
@@ -20,11 +21,10 @@ namespace MVCSearchingPeople.com
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-
             routes.MapRoute(
                 "Default", // Route name
                 "{controller}/{action}/{id}", // URL with parameters
-                new { controller = "Home", action = "Start", id = UrlParameter.Optional } // Parameter defaults
+                new { controller = "Human", action = "Start", id = UrlParameter.Optional } // Parameter defaults
             );
 
         }
@@ -32,9 +32,10 @@ namespace MVCSearchingPeople.com
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
-
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
+
+            ControllerBuilder.Current.SetControllerFactory(new NinjectControllerFactory());
         }
     }
 }

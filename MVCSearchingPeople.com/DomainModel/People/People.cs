@@ -13,14 +13,17 @@ namespace DomainModel.People
         public string Name { get; set; }
         public string Age { get; set; }
         public string Location { get; set; }
-        public string Additional { get; set; }
+        public string Image { set; get; }
+        public List<string> Links { get; set; }
+        public Dictionary<string, double> Tags { get; set; }
+        public List<string> Additional { get; set; }
     }
     public class FakeHuman
     {
         [Required(ErrorMessage = "Пожалуйста, укажите имя...")]
         public string Name { get; set; }
-        [Required]
-        [Range(5, 100, ErrorMessage = "Введите возраст в пределах от 5 до 100 лет...")]
+        [Required(ErrorMessage = "Пожалуйста, укажите примерный возраст...")]
+        [Range(13, 100, ErrorMessage = "Введите возраст в пределах от 13 до 100 лет...")]
         public short Age { get; set; }
         [Required(ErrorMessage = "Введите примерное местоположение человека...")]
         public string Location { get; set; }

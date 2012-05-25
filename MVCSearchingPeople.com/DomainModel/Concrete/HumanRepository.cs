@@ -20,7 +20,7 @@ namespace DomainModel.Concrete
         }
         public void SaveProduct(Human human)
         {
-            if (human.HumanID != 0)
+            if (human.HumanID != -1)
             {
                 context.Humans.Add(human);
             }

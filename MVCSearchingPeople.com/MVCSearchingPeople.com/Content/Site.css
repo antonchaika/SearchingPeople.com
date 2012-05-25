@@ -55,6 +55,29 @@ padding: 0px 8px;
 text-align: left;
 }
 
+.thrColLiq #container 
+{
+  margin-top: 100px;
+  width: 80%;
+  background: #FFFFFF;
+  margin: 0 auto; 
+  text-align: left; 
+}
+
+.thrColLiq #sidebar1 {
+  margin-top: 100px;
+  float: left; 
+  /*height: 500px;*/
+  width: 30%; 
+  margin-left: 3%;
+  background-image: url(images/result.png);
+  padding: 15px 0;
+}
+.thrColLiq #sidebar1 p, .thrColLiq #sidebar1 h3{
+  margin-left: 10px; 
+  margin-right: 10px;
+}
+
 .frame {
 	border: 1px solid #FFFFFF;
 }

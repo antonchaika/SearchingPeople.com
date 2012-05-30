@@ -1,6 +1,6 @@
 ﻿body {
 	margin-bottom: 0px;
-	background-image: url(images/back.jpg);
+	background: #ffffff url(images/back.jpg) repeat left top fixed;
 	margin: 0px;
 	padding: 0px;
 }
@@ -11,7 +11,17 @@ margin-right: auto;
 width: 600px;
 padding-top: 300px;
 }
-
+.noresult
+{
+    color: White; 
+    font-size: 22pt; 
+    text-shadow:0px 3px 3px rgba(0,0,0,0.5);
+}
+.noresult p
+{
+    margin-top: 30px;
+    padding-top: 50px;
+}
 div { 
 display: block;
 }
@@ -20,7 +30,7 @@ div.inputfield{
     float: left;
     margin: 0px 8px 10px 0px;
 }
-
+.input-validation-error { border: 1px solid #f00; }
 div.inputfield label { 
 display: block;
 font-size: 14px;
@@ -53,29 +63,6 @@ height: 31px;
 margin: 1px;
 padding: 0px 8px;
 text-align: left;
-}
-
-.thrColLiq #container 
-{
-  margin-top: 100px;
-  width: 80%;
-  background: #FFFFFF;
-  margin: 0 auto; 
-  text-align: left; 
-}
-
-.thrColLiq #sidebar1 {
-  margin-top: 100px;
-  float: left; 
-  /*height: 500px;*/
-  width: 30%; 
-  margin-left: 3%;
-  background-image: url(images/result.png);
-  padding: 15px 0;
-}
-.thrColLiq #sidebar1 p, .thrColLiq #sidebar1 h3{
-  margin-left: 10px; 
-  margin-right: 10px;
 }
 
 .frame {

@@ -5,7 +5,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCWrapper", "MVCSearchingP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModel", "DomainModel\DomainModel.csproj", "{140C70BA-9511-4DD0-B5F6-3AD2A8762F38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelTesting", "ModelTesting\ModelTesting.csproj", "{CBB5E63D-4799-4AF7-BBD8-5A39898A5E21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F5950162-687E-4B9C-A0C7-FAD752A84283}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		MVCSearchingPeople.com.vsmdi = MVCSearchingPeople.com.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MVCSearchingPeople.com.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -19,6 +31,10 @@ Global
 		{140C70BA-9511-4DD0-B5F6-3AD2A8762F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{140C70BA-9511-4DD0-B5F6-3AD2A8762F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{140C70BA-9511-4DD0-B5F6-3AD2A8762F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB5E63D-4799-4AF7-BBD8-5A39898A5E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB5E63D-4799-4AF7-BBD8-5A39898A5E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB5E63D-4799-4AF7-BBD8-5A39898A5E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB5E63D-4799-4AF7-BBD8-5A39898A5E21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

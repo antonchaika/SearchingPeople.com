@@ -14,18 +14,18 @@ namespace DomainModel.People
         public string Age { get; set; }
         public string Location { get; set; }
         public string Image { set; get; }
-        public List<string> Links { get; set; }
+        public Dictionary<string, string> Links { get; set; }
         public Dictionary<string, double> Tags { get; set; }
-        public List<string> Additional { get; set; }
+        public List<KeyValuePair<string, string>> Additional { get; set; }
     }
     public class FakeHuman
     {
         [Required(ErrorMessage = "Пожалуйста, укажите имя...")]
         public string Name { get; set; }
-        [Required(ErrorMessage = "Пожалуйста, укажите примерный возраст...")]
-        [Range(13, 100, ErrorMessage = "Введите возраст в пределах от 13 до 100 лет...")]
-        public short Age { get; set; }
-        [Required(ErrorMessage = "Введите примерное местоположение человека...")]
+        //[Required(ErrorMessage = "Пожалуйста, укажите примерный возраст...")]
+        //[Range(13, 100, ErrorMessage = "Введите возраст в пределах от 13 до 100 лет...")]
+        public short? Age { get; set; }
+        //[Required(ErrorMessage = "Введите примерное местоположение человека...")]
         public string Location { get; set; }
     }
 }

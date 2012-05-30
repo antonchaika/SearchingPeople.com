@@ -14,7 +14,7 @@ namespace DomainModel.Abstract
 
     public interface ISearchNET
     {
-        void Search(IHumanRepository rep);
+        void Search(IHumanRepository rep, int operationid);
         void GetFake(FakeHuman fake);
     }
 }

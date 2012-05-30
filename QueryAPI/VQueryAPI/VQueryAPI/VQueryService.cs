@@ -129,13 +129,18 @@ namespace VQueryAPI
                     foreach (HtmlNode node in htmlcol)
                     {
                         VQueryResult obj = new VQueryResult();
-                        HtmlNode a = node.Descendants("a").ElementAt(1);
-                        if (a != null)
+                        IEnumerable<HtmlNode> coll = node.Descendants("a");
+                        if (coll.Count() > 0)
                         {
-                            obj.Url = "http://vk.com" + a.GetAttributeValue("href", null);
-                            obj.Title = a.InnerText;
+                            HtmlNode a = coll.ElementAt(1);
+                            if (a != null)
+                            {
+                                obj.Url = "http://vk.com" + a.GetAttributeValue("href", null);
+                                obj.Title = a.InnerText;
+                            }   
+                            s.Add(obj);
                         }
-                        s.Add(obj);
+                        else return null;
                     }
                 }
                 else return null;

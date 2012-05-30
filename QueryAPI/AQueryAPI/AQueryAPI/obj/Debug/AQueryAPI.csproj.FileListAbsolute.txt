@@ -3,3 +3,8 @@ D:\Study\BSUIR\!Third Cours\Programming\AQueryAPI\AQueryAPI\bin\Debug\AQueryAPI.
 D:\Study\BSUIR\!Third Cours\Programming\AQueryAPI\AQueryAPI\bin\Debug\AQueryAPI.pdb
 D:\Study\BSUIR\!Third Cours\Programming\AQueryAPI\AQueryAPI\obj\Debug\AQueryAPI.dll
 D:\Study\BSUIR\!Third Cours\Programming\AQueryAPI\AQueryAPI\obj\Debug\AQueryAPI.pdb
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\QueryAPI\AQueryAPI\AQueryAPI\obj\Debug\ResolveAssemblyReference.cache
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\QueryAPI\AQueryAPI\AQueryAPI\obj\Debug\AQueryAPI.dll
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\QueryAPI\AQueryAPI\AQueryAPI\bin\Debug\AQueryAPI.dll
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\QueryAPI\AQueryAPI\AQueryAPI\bin\Debug\AQueryAPI.pdb
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\QueryAPI\AQueryAPI\AQueryAPI\obj\Debug\AQueryAPI.pdb

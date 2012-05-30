@@ -211,8 +211,12 @@ namespace GQueryAPI
                                 {
                                     if (span.ElementAt(i).GetAttributeValue("class", null) == "gl" && full_gl == false)
                                     {
-                                        obj.CachedUrl = span.ElementAt(i).Descendants("a").First().GetAttributeValue("href", null);
-                                        full_gl = true;
+                                        IEnumerable<HtmlNode> en = span.ElementAt(i).Descendants("a");
+                                        if (en.Count() > 0)
+                                        {
+                                            obj.CachedUrl = en.First().GetAttributeValue("href", null);
+                                            full_gl = true;
+                                        }
                                         //error = false;
                                     }
                                     //else error = true;

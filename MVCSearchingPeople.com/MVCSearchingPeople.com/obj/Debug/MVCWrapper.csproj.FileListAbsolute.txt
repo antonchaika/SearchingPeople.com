@@ -1,0 +1,62 @@
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\MVCSearchingPeople.com.dll
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\MVCSearchingPeople.com.pdb
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\AQueryAPI.dll
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\DomainModel.dll
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\EntityFramework.dll
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\GQueryAPI.dll
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\HtmlAgilityPack.dll
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\LMFC.dll
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\Moq.dll
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\Ninject.dll
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\SocialAPI.dll
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\VQueryAPI.dll
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\DomainModel.pdb
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\AQueryAPI.pdb
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\EntityFramework.xml
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\GQueryAPI.pdb
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\GQueryAPI.xml
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\HtmlAgilityPack.pdb
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\HtmlAgilityPack.xml
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\LMFC.pdb
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\LMFC.xml
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\Moq.pdb
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\Moq.xml
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\Ninject.pdb
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\Ninject.xml
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\SocialAPI.pdb
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\VQueryAPI.pdb
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\VQueryAPI.xml
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\obj\Debug\ResolveAssemblyReference.cache
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\obj\Debug\MVCSearchingPeople.com.dll
+F:\Study\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\obj\Debug\MVCSearchingPeople.com.pdb
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\obj\Debug\ResolveAssemblyReference.cache
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\MVCSearchingPeople.com.dll
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\MVCSearchingPeople.com.pdb
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\AQueryAPI.dll
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\DomainModel.dll
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\EntityFramework.dll
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\GQueryAPI.dll
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\HtmlAgilityPack.dll
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\LMFC.dll
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\Moq.dll
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\Ninject.dll
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\SocialAPI.dll
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\VQueryAPI.dll
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\DomainModel.pdb
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\AQueryAPI.pdb
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\EntityFramework.xml
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\GQueryAPI.pdb
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\GQueryAPI.xml
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\HtmlAgilityPack.pdb
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\HtmlAgilityPack.xml
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\LMFC.pdb
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\LMFC.xml
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\Moq.pdb
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\Moq.xml
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\Ninject.pdb
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\Ninject.xml
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\SocialAPI.pdb
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\VQueryAPI.pdb
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\bin\VQueryAPI.xml
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\obj\Debug\MVCSearchingPeople.com.dll
+D:\Study\BSUIR\!Third Cours\Programming\SearchingPeople.com (GIT)\MVCSearchingPeople.com\MVCSearchingPeople.com\obj\Debug\MVCSearchingPeople.com.pdb

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MVCSearchingPeople.com.Controllers.HumanController">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACACAAAAAAAAAAAAAAAAAAAQAEAAAgAAAAI=</HashCode>
+      <FileName>Controllers\HumanController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVCSearchingPeople.com.MvcApplication">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAIQAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVCSearchingPeople.com.Infastructure.NinjectControllerFactory">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAgAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Infrastructure\NinjectControllerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVCSearchingPeople.com.Models.SearchNET" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIgDAAIAAAARgAAIAAAAAAAwEAAEAAAAAAQCiAAU=</HashCode>
+      <FileName>Models\SearchNET.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DomainModel.Abstract.ISearchNET">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

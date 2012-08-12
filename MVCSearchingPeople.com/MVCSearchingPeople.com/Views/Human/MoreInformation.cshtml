@@ -1,0 +1,176 @@
+﻿@model DomainModel.People.Human
+@using System.Collections;
+@{
+    ViewBag.Title = Model.Name;
+    Layout = "~/Views/Shared/_LayoutFullResult.cshtml";
+}
+
+<body>
+<!-- Shell -->
+<div class="shell">
+	<!-- Content -->
+	<div id="content">
+		<!-- Main -->
+		<div id="main">
+			<div class="box">
+				<div class="top">
+                    <div class="bottom">
+						<!-- Big Image -->
+						<div class="holder">
+							<div class="cl">&nbsp;</div>
+							<div class="stripe">
+								<strong>@Model.Links.Values.ElementAt(0)</strong>
+							</div>
+							<div class="cl">&nbsp;</div>
+							<a href="#"><img src="@Model.Image" style="max-height: 385px; max-width: 285px;" alt="" /></a>
+							<div class="cl">&nbsp;</div>
+                            <a href="@Url.Action("list")" class="view-all">Вернуться</a>
+							<a href="@Model.Links.Keys.ElementAt(0)" class="view-all">Социальная сеть</a>
+                            
+						</div>
+						<!-- End Big Image -->
+						
+						<!-- Videos -->
+						<div class="right-col">
+							<h2>@Model.Name</h2>	
+				            <h2 style="border: none;">@Model.Location, @Model.Age</h2>
+                            <div class="info">
+					         @foreach (KeyValuePair<string, string> item in Model.Additional)
+                             {
+                                 if (item.Value != null)
+                                 {
+                                   <p>@(item.Key) @(item.Value)</p>
+                                 }
+                             }
+				            </div>
+						</div>
+						<!-- End Videos -->
+						<div class="cl">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Box 
+			<div class="simple">
+            <h2>Название</h2>
+				<div class="info">
+					<h3><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </a></h3>
+					<span>23.05.09</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis urna, rhoncus a tempus in, blandit vel nibh. Sed interdum erat eget lacus commodo mattis. Donec ac ante ut dui scelerisque consequat. Phasellus facilisis luctus elit ac sollicitudin. Curabitur pulvinar malesuada accumsan.</p>
+					<p>Donec luctus mauris a velit aliquam in volutpat diam viverra. Nulla ipsum magna, pellentesque et imperdiet eget, interdum sed neque.</p>
+					<p>Nullam tempor pellentesque pulvinar. Quisque elementum purus vitae urna vulputate molestie. Nam tortor tellus, pulvinar non pellentesque eget, aliquam vel ligula. Curabitur eleifend, diam ac pulvinar porttitor, massa elit lobortis ligula, a blandit nunc nulla vitae mauris. Nullam laoreet lacus ut quam sodales semper. Aliquam eu eros blandit </p>
+				</div>
+				<div class="cl">&nbsp;</div>
+				<a href="#" class="small">Previous news</a>
+				<a href="#" class="small">All news</a>
+				<a href="#" class="small">Next news</a>
+				<div class="cl">&nbsp;</div>
+			</div>
+			<!-- End Box  -->
+			
+			<!-- Box -->
+			<div class="simple">
+                @{if (Model.Tags.Count > 0)
+                  {
+               <h2>Содержимое страниц</h2>
+               <br />
+                      int i = 0;
+                      foreach (KeyValuePair<string, double> item in Model.Tags)
+                      {
+                          if (item.Value <= 0.03)
+                          {
+                    <span style="font-size: 8pt;">@(item.Key + " ")</span>
+                          }
+                          else if (item.Value <= 0.04)
+                          {
+                    <span style="font-size: 13pt;">@(item.Key + " ")</span>
+                          }
+                          else if (item.Value <= 0.05)
+                          {
+                    <span style="font-size: 17pt;">@(item.Key + " ")</span>
+                          }
+                          else if (item.Value <= 0.1)
+                          {
+                    <span style="font-size: 20pt;">@(item.Key + " ")</span>
+                          }
+                          else if (item.Value <= 0.2)
+                          {
+                    <span style="font-size: 25pt;">@(item.Key + " ")</span>
+                          }
+                          else
+                          {
+                    <span style="font-size: 30pt;">@(item.Key + " ")</span>
+                          }
+                          i++;
+                      }
+                  }
+                }
+                
+            <!--<h2>Последние твитты</h2>
+				<div class="description">
+					<h4>Здесь будет твитт</h4>
+					<p>А пока просто заглушка из текста. А пока просто заглушка из текста. </p>
+					<a href="#">Прокомментировать</a>
+				</div>
+				<div class="description">
+					<h4>Здесь будет твитт или сообщение</h4>
+					<p>А пока просто заглушка из текста. А пока просто заглушка из текста. </p>
+					<a href="#">Прокомментировать</a>
+				</div>
+				<div class="description">
+					<h4>Здесь будет твитт или сообщение</h4>
+					<p>А пока просто заглушка из текста. А пока просто заглушка из текста. </p>
+					<a href="#">Прокомментировать</a>
+				</div>
+				<div class="cl">&nbsp;</div>-->
+			</div>
+			<!-- End Box  -->
+			
+		</div>
+		<!-- End Main -->
+		
+		<!-- Sidebar -->
+		<div id="sidebar">
+			<div class="top">
+				<h2>Найденные ссылки</h2>
+				            <ul class="blue">
+                            @foreach (KeyValuePair<string, string> item in Model.Links)
+                            {
+                                <li><a href="@item.Key">@item.Value</a></li>
+                            }
+				            </ul>
+				<!--<h2>Ведет в Интернете блог</h2>
+				<ul class="blue">
+				    <li>
+				    	<small>21.05.09 | posted by <a href="#"></a></small>
+				    	<a href="#">Lorem ipsum dolor sit amet, consectetur <br />adipiscing elit. </a>
+				    </li>
+				    <li>
+				    	<small>21.05.09 | posted by <a href="#">admin</a></small>
+				    	<a href="#">Nulla ipsum magna pellentesque et imperdiet<br /> eget, intercedm sed neque </a>
+				    </li>
+				    <li>
+				    	<small>21.05.09 | posted by <a href="#">admin</a></small>
+				    	<a href="#">Consecettur adipsicing elit pellentesque turpis<br /> unra tempus.</a>
+				    </li>
+				    <li>
+				    	<small>21.05.09 | posted by <a href="#">admin</a></small>
+				    	<a href="#">Curabitu eleifend , diam ac pulvinar portititor, <br />massa elit lobortis ligula a blandit</a>
+				    </li>
+				    <li>
+				    	<small>21.05.09 | posted by <a href="#">admin</a></small>
+				    	<a href="#">Lorem ipsum dolor sit amet, consectetur <br />adipiscing elit. </a>
+				    </li>
+				    <li>
+				    	<small>21.05.09 | posted by <a href="#">admin</a></small>
+				    	<a href="#">Lorem ipsum dolor sit amet, consectetur <br />adipiscing elit. </a>
+				    </li>
+				</ul>-->
+			</div>
+		</div>
+		<!-- End Sidebar -->
+	</div>
+	<!-- End Content -->
+</div>
+<!-- End Shell -->
+</body>

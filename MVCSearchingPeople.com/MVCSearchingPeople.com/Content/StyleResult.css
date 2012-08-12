@@ -1,0 +1,171 @@
+* {
+    padding:0;
+    margin:0;
+    outline:0;
+}
+.cl {
+    font-size:0;
+    line-height:0;
+    height:0;
+    display:block;
+    clear:both;
+}
+body{
+    background:url(images/back.jpg);
+    font-family:Arial, sans-serif;
+    color:#4e4e4e;
+    font-size:11px;
+    line-height:14px;
+    padding-bottom:70px;
+}
+a{
+    color:#ff00d2;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+a:hover{
+    text-decoration:none
+}
+a img{
+    border:0;
+}
+.shell{width:930px; margin:0 auto}
+
+#header{height:102px;}
+#header .right-part{float: right; display: inline; padding-top:35px}
+#header .right-part p{text-align: right;}
+#header .right-part a{text-align: right; margin-left:18px}
+#header .right-part .search{padding-top:22px}
+#header .right-part .search .field{width:205px; font-size: 11px; line-height: 13px; margin-top:4px; margin-left:18px; padding-left:2px; border:0; color:#b3b19d; text-transform: uppercase; background:#fff}
+#header .right-part .search .btnp {float: left; display: inline;}
+#header .right-part .search .btnp input{
+	width:29px; 
+	height:22px;
+	font-size: 0; 
+	line-height: 0px;
+	text-indent: -4000px;
+	background:url(images/go.gif);
+	float: left;
+	display: inline;
+	cursor:pointer;
+	border:0;
+}
+#header .right-part .search .fld{width:228px; height:22px; background:url(images/fld.gif); float: left; display: inline;}
+
+h1#logo{
+	background-image: none;
+	font-size: 0;
+	line-height:0;
+	width:264px;
+	height:48px;
+	float: left;
+	display: inline;
+	padding-top:23px;
+}
+h1#logo a{
+	display: block;
+	text-indent: -4000px;
+	height:48px;
+	background:url(images/logo.gif);
+}
+h2{font-size: 20px; color:#2a2a2a; font-weight: normal; text-transform: uppercase; font-family: georgia, sans-serif; padding-bottom:8px; border-bottom:solid 2px #dedede; margin-right:5px}
+h2 span{color:#ff0081}
+h3{color:#0f89df; font-size: 15px; font-family: "trebuchet ms", sans-serif; text-transform: uppercase; line-height: 18px;}
+h4{color:#0f89df; font-size: 12px; font-family: "trebuchet ms", sans-serif; text-transform: uppercase; line-height: 16px;}
+
+.no-border{border-bottom:0;}
+
+#content #main .box .right{float: right; display: inline;}
+
+#nav{height:28px; background:url(images/pink-right.gif) no-repeat right 0; padding-right:5px; font-family: "trebuchet ms", sans-serif;}
+#nav .inner{height:28px; background:url(images/pink-rep.gif) repeat-x}
+#nav ul{list-style-type: none; font-size: 12px; text-transform: uppercase; font-weight: bold; height:28px}
+#nav li{float: left; display: inline; background:url(images/li-bg.gif) no-repeat right 0; padding-right:1px }
+#nav li a{float: left; display: inline; color:#fff; line-height: 28px; text-decoration: none; padding:0 11px}
+#nav li a.first{background:url(images/pink-left.gif) no-repeat; }
+#nav li.active a.first{background:#74ccef url(images/active.gif) no-repeat; }
+#nav li.active a{background:#74ccef; color:#174f65; }
+
+#content{padding-top:100px;}
+
+a.view-all{font-size: 10px; text-transform: uppercase; color:#6b6b6b; text-decoration: none; background:url(images/grey-rounded.gif); width:109px; line-height:22px; text-align: center; margin-top:14px; margin-right: 20px;}
+
+#main{width:623px; float: left; display: inline;}
+#main .box{width:623px; background:url(images/box-rep.gif) repeat-y;  margin-bottom:8px}
+#main .box .right-col{float: left; display: inline; width:302px; padding-left:8px; padding-top:5px}
+#main .box .right-col h2{margin-bottom:10px;  }
+#main .box .right-col p{margin-bottom:10px; width: 302px; font-size: 10pt;  }
+#main .box .right-col .holder{width:143px; margin-bottom:20px; }
+#main a.blue{color:#0f89df; text-decoration: none; font-weight: bold; float: left; margin-top:3px}
+
+a.blue:hover { color:#ff00d2 !important;}
+
+#main .box a{float: left; display: inline;}
+#main .box .holder{width:294px; position:relative; z-index: 1; float:left; display: inline;}
+#main .box .holder a.play{
+	width:29px; 
+	height:29px; 
+	position:absolute; 
+	top:57px; 
+	left:57px;
+	z-index: 10; 
+	display: block; 
+	background:url(images/play.png); 
+	text-indent: -4000px; 
+	line-height: 0; 
+	font-size: 0;
+	cursor:pointer;
+}
+#main .box .holder .stripe{position: absolute; bottom:40px; left:25px; z-index: 10; height:50px; background:url(images/dot.png); width:180px}
+#main .box .holder .stripe strong{font-family: "trebuchet ms", sans-serif; font-size: 14px; color:#00a2ff; text-transform: uppercase; line-height: 25px;  padding-top: 10px; padding-right: 10px; text-align: right; display: block;}
+#main .box a img{display: block; border:solid 1px #dedede; padding:4px}
+#main .box .top{width:623px; background:url(images/box-top.gif) no-repeat; }
+#main .box .bottom{width:612px; background:url(images/box-bottom.gif) no-repeat 0 bottom; padding-top:12px; padding-left:11px; padding-bottom:10px}
+
+#main .simple {width:609px; background:#fff; border:solid 1px #dcdcdc; padding-top:12px; padding-left:12px; padding-bottom:10px; margin-bottom:6px}
+#main .simple .holder{width:143px; float: left; display: inline; margin-right:9px}
+#main .simple a{ color:#0f89df; text-decoration: none;}
+#main .simple a:hover{ color:#ff00d2; }
+#main .simple a.image{float: left; display: inline;}
+#main .simple a.image img{display: block; padding:4px; border:solid 1px #dedede;}
+
+#main .frame{padding-top:19px}
+
+.info{float: left; display: inline; width:420px; padding-left:8px}
+.info span.date{color:#9b9b9b; display: block;}
+.info p{padding-bottom:7px}
+
+a.small{font-size: 10px; color:#6b6b6b; text-transform: uppercase; margin-right:15px}
+
+.small-nav{height:29px; border-bottom:solid 1px #dedede; margin-left:-10px; margin-top:-10px; margin-bottom:8px}
+.small-nav ul{list-style-type: none; font-family: georgia, sans-serif; text-transform: uppercase;}
+.small-nav li{float: left; border-right:solid 1px #dedede; height:29px; line-height: 29px; padding:0 7px}
+.small-nav li a{float: left; color:#232323; text-decoration: none;}
+.small-nav li a:hover, .small-nav li a.active{color:#ff0081}
+
+.description{width:180px; float: left; display: inline; padding-left:5px}
+.description h4{padding-bottom:4px}
+.description p{padding-bottom:10px; width:180px}
+
+#sidebar{width:301px; float: right; display: inline; background:url(images/sidebar.gif) repeat-y; border-bottom:solid 1px #dcdcdc}
+#sidebar .top{width:291px;  background:url(images/sidebar-top.gif) no-repeat; padding-top:15px; padding-left:10px}
+#sidebar .top p{ font-size: 14pt; width:291px;}
+#sidebar ul.pink{list-style-type: none; font-size: 12px; padding-top:10px; width:280px; border-bottom:solid 2px #dedede}
+#sidebar ul.pink li{ background:url(images/bull.gif) no-repeat 0 3px; padding-left:15px; text-transform: uppercase; padding-bottom:10px}
+#sidebar ul.pink li a{color:#f8379b; text-decoration: none;}
+#sidebar ul.pink li a:hover{text-decoration: underline;}
+#sidebar ul.blue{list-style-type: none; padding-top:10px; margin-bottom:30px}
+#sidebar ul.blue li{border-bottom:solid 1px #ededed; padding-bottom:5px; padding-top:2px; font-size: 12px;}
+#sidebar ul.blue li a{text-transform: none; color:#0f89df; }
+#sidebar ul.blue small {color:#8e8e8e; display: block;}
+#sidebar ul.blue small a{color:#0F99DF}
+
+
+
+.ad{padding-top:12px;  margin-bottom:30px}
+.ad a img{display: block; padding:1px; border:solid 1px #e4e4e4}
+.ad small{font-size: 8px; text-transform: uppercase; display: block; color:#b0b0b0}
+
+#footer{background:#fff; border:solid 1px #dcdcdc; height:70px; font-size: 10px; color:#515151; text-transform: uppercase; font-family: "trebuchet ms", sans-serif; text-align: right;}
+#footer .right-area{float: right; display: inline; padding-top:25px; padding-right:17px}
+#footer a.sm-logo{background:url(images/fashion.gif); width:155px; height:34px; float: left; text-indent: -4000px; line-height: 0; font-size: 0; margin:16px 0 0 20px; text-align: left;}

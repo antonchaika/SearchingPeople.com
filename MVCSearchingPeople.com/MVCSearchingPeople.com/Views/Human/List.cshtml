@@ -1,0 +1,164 @@
+﻿@model IEnumerable<DomainModel.People.Human>
+@using DomainModel.People;
+@{
+    Layout = "~/Views/Shared/_LayoutResult.cshtml";
+}
+@{
+    ViewBag.Title = "People";
+}
+<body style="width: @(ViewBag.Resolution)px">
+@if (Model.Count() <= 3)
+{
+<div class="banners" style="position: absolute; left: 50%; width:@(ViewBag.Resolution)px; margin-left:-@(ViewBag.Resolution2)px;">
+@{Random r = new Random();
+  foreach (DomainModel.People.Human item in Model)
+  {
+      if (item != null)
+      {
+	    <div class="col1 raised">
+		<div class="ban@(r.Next(3) + 1)">
+			<div class="pad">
+				<h2>
+                <strong style="font-size">@item.Name</strong>
+                @if (item.Age != null && item.Location != null)
+                {
+                <span>@item.Location, @item.Age</span>
+                }
+                </h2>
+                @if (item.Age == null && item.Location == null)
+                {
+                <h2><span>Беларусь</span></h2>
+                }
+                @if (item.Image != null)
+                {
+                    if (item.Image.IndexOf("http") == -1)
+                    {
+                  <img src="@Url.Action("GetImageFake", "Human", new { id = item.HumanID })" alt="@item.Name"/>
+                    }
+                    else
+                    {
+                 <img src="@item.Image" style="max-height: 240px;" alt="@item.Name"/>
+                    }
+                }
+                    <p>Социальная сеть:
+                    <a href="@item.Links.Keys.ElementAt(0)" style="font-size: 14px;">@item.Links.Values.ElementAt(0)</a>
+                    </p>
+
+              </div>
+                 <div class="center" style="margin-left: 15px;">
+    	            <a href="@Url.Action("moreinformation", "human", new { id = item.HumanID }) " class="a-btn">
+					<span class="a-btn-text">Узнай больше...</span> 
+					<span class="a-btn-slide-text">Бесплатно:)</span>
+					<span class="a-btn-icon-right"><span></span></span>
+				    </a>
+                </div>
+            </div>
+        </div>
+   }
+  }
+      if(Human.Settings == "search0")
+    {
+<p id="back-top" class="raised">
+	<a href="@Url.Action("startnew", new { opcode = 1 })"><span></span>Поискать ещё...</a>
+</p>
+    }
+      else if (Human.Settings == "search1")
+      {
+<p id="back-top" class="raised">
+	<a href="@Url.Action("startnew", new { opcode = 2 })"><span></span>Поискать ещё...</a>
+</p>        
+      }
+      else
+      {
+<p id="back-top" class="raised">
+	<a href="@Url.Action("start")"><span></span>На главную</a>
+</p>           
+      }
+}
+</div>
+}
+else
+{
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#back-top").hide();
+                $(function () {
+                    $(window).scroll(function () {
+                        if ($(this).scrollLeft()) {
+                            $('#back-top').fadeIn();
+                        } else {
+                            $('#back-top').fadeOut();
+                        }
+                    });
+                });
+            });
+</script>
+<div class="banners">
+@{Random r = new Random();
+  foreach (DomainModel.People.Human item in Model)
+  {
+      if (item != null)
+      {
+	    <div class="col1 raised">
+		<div class="ban@(r.Next(3) + 1)">
+			<div class="pad">
+				<h2>
+                <strong style="font-size">@item.Name</strong>
+                @if (item.Age != null && item.Location != null)
+                {
+                <span>@item.Location, @item.Age</span>
+                }
+                </h2>
+                @if (item.Age == null && item.Location == null)
+                {
+                <h2><span>Беларусь</span></h2>
+                }
+                @if (item.Image != null)
+                {
+                    if (item.Image.IndexOf("http") == -1)
+                    {
+                  <img src="@Url.Action("GetImageFake", "Human", new { id = item.HumanID })" alt="@item.Name"/>
+                    }
+                    else
+                    {
+                 <img src="@item.Image" style="max-height: 240px;" alt="@item.Name"/>
+                    }
+                }
+                    <p>Социальная сеть:
+                    <a href="@item.Links.Keys.ElementAt(0)" style="font-size: 14px;">@item.Links.Values.ElementAt(0)</a>
+                    </p>
+
+              </div>
+                 <div class="center" style="margin-left: 15px;">
+    	            <a href="@Url.Action("moreinformation", "human", new { id = item.HumanID }) " class="a-btn">
+					<span class="a-btn-text">Узнай больше...</span> 
+					<span class="a-btn-slide-text">Бесплатно:)</span>
+					<span class="a-btn-icon-right"><span></span></span>
+				    </a>
+                </div>
+            </div>
+        </div>
+      }
+  }
+  if (Human.Settings == "search0")
+  {
+<p id="back-top" class="raised">
+	<a href="@Url.Action("startnew", new { opcode = 1 })"><span></span>Поискать ещё...</a>
+</p>
+  }
+  else if (Human.Settings == "search1")
+  {
+<p id="back-top" class="raised">
+	<a href="@Url.Action("startnew", new { opcode = 2 })"><span></span>Поискать ещё...</a>
+</p>        
+  }
+  else
+      {
+<p id="back-top" class="raised">
+	<a href="@Url.Action("start")"><span></span>На главную</a>
+</p>           
+      }  
+}
+</div>
+}
+</body>

@@ -26,11 +26,6 @@ namespace MVCSearchingPeople.com
                 "{controller}/{action}/{id}", // URL with parameters
                 new { controller = "Human", action = "Start", id = 0 } // Parameter defaults
             );
-            routes.MapRoute(
-                "SearchRoute", // Route name
-                "{controller}/{action}/{id}", // URL with parameters
-                new { controller = "Human", action = "StartNew", id = 1 } // Parameter defaults
-            );
         }
 
         protected void Application_Start()

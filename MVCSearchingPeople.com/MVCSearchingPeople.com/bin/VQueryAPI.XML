@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VQueryAPI</name>
+    </assembly>
+    <members>
+        <member name="T:VQueryAPI.VQueryService">
+            <summary>
+            Global public class for using VK offline search
+            </summary>
+        </member>
+        <member name="M:VQueryAPI.VQueryService.#ctor(System.String)">
+            <summary>
+            Constructor of GQueryService class.
+            </summary>
+            <param name="name">Name for search request</param>
+        </member>
+        <member name="M:VQueryAPI.VQueryService.#ctor(System.String,System.Int16)">
+            <summary>
+            Constructor of GQueryService class.
+            </summary>
+            <param name="name">Name for search request</param>
+            <param name="age">Age of the human</param>
+        </member>
+        <member name="M:VQueryAPI.VQueryService.#ctor(System.String,System.Int16,System.String)">
+            <summary>
+            Constructor of GQueryService class.
+            </summary>
+            <param name="name">Name for search request</param>
+            <param name="age">Age of the human</param>
+            <param name="loc">Location of the human</param>
+        </member>
+        <member name="M:VQueryAPI.VQueryService.GetResult">
+            <summary>
+            Searching in Google current key phrase and writing results to list.
+            </summary>
+            <returns>List of GQueryResult objects</returns>
+        </member>
+        <member name="P:VQueryAPI.VQueryService.SearchQuery">
+            <summary>
+            Search request for Google Search.
+            </summary>
+        </member>
+        <member name="P:VQueryAPI.VQueryService.SearchKeyword">
+            <summary>
+            Get keyword of current searching.
+            </summary>
+        </member>
+        <member name="T:VQueryAPI.VQueryResult">
+            <summary>
+            Result class for VK
+            </summary>
+        </member>
+        <member name="P:VQueryAPI.VQueryResult.Title">
+            <summary>
+            Get the title of the Google search result.
+            </summary>
+        </member>
+        <member name="P:VQueryAPI.VQueryResult.Url">
+            <summary>
+            Get the URL of the Google search result.
+            </summary>
+        </member>
+    </members>
+</doc>

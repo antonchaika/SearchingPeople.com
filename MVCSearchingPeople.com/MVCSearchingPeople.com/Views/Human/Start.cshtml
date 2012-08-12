@@ -1,0 +1,26 @@
+﻿@model DomainModel.People.FakeHuman
+
+@{
+    ViewBag.Title = "Start Page";
+}
+
+@using (Html.BeginForm("start", "human", FormMethod.Post))
+{
+    <div class="searchform">
+    <div class="inputfield">
+        <label for="qa" class="text1">Имя</label>
+        @Html.TextBox("Name", "", new { @class = "textinput", @style = "width:200px;"})
+        </div>
+    <div class="inputfield">
+        <label for="qb" class="text1">Возраст</label>
+        @Html.TextBox("Age", "", new { @class = "textinput", @style = "width:50px;" })
+        </div>
+    <div class="inputfield">
+        <label for="qc" class="text1">Город / Страна</label>
+        @Html.TextBox("Location", "", new { @class = "textinput", @style = "width:150px;" })
+    </div>
+    <div class="inputfield nolabel">
+        <input type="submit" class="Button" value="Поиск" tabindex="4" style="margin-top: 22px;"/>
+    </div>
+    </div>
+}

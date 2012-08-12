@@ -17,6 +17,7 @@ namespace DomainModel.People
         public Dictionary<string, string> Links { get; set; }
         public Dictionary<string, double> Tags { get; set; }
         public List<KeyValuePair<string, string>> Additional { get; set; }
+        public static string Settings { get; set; }
     }
     public class FakeHuman
     {

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DomainModel.Concrete.HumanContext">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Concrete\HumanContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainModel.Concrete.HumanRepository" BaseTypeListCollapsed="true">
+    <Position X="6" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Concrete\HumanRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DomainModel.People.Human">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAEIAAAQAAAAACFAACAAAAAAAAAA=</HashCode>
+      <FileName>People\People.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainModel.People.FakeHuman">
+    <Position X="2.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEIAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>People\People.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DomainModel.Abstract.IHumanRepository">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Abstract\Abstract.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
